@@ -1,0 +1,103 @@
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 3%;
+    top: 15px;
+}
+
+.line{
+    width: 25px;
+    background-color: white;
+    height: 3px;
+    margin: 3px 3px;
+}
+
+/*this is for responsive website*/
+@media only screen and (max-width:898.50px){ /*this is media query which till execute when our website's width will be less than 870px*/
+    .nav_list{
+        flex-direction: column;
+    }
+    
+    .navbar{
+        flex-direction: column;
+        transition: all 0.3s ease-out;
+        height: 320px;
+    }
+
+    .rightNav{
+        text-align: center;
+    }
+
+    #search{
+        width: 100%;
+    }
+
+    .burger{
+        display: block;
+    }
+    .nav-heightresp{
+        height: 70px;
+    }
+
+    .visiblity-classresp{  /*resp-responsive  it will hide all where i gave visiblity-classresp class*/
+        opacity: 0;
+    }
+
+    .box-main{
+        max-width: 100%;
+    flex-direction: column-reverse;/*it will move our image before the text*/
+    }
+
+    .section{
+        flex-direction: column-reverse;
+    }
+
+    .text-big{
+        text-align: center;
+    }
+
+    .text-small{
+        text-align: center;
+    }
+
+    .buttons{
+        text-align: center;
+    }
+
+    .btn-sub{
+        text-align: center; 
+    }
+
+    .paragraph{
+        padding: 0px;
+        margin-bottom: 10px;
+    }
+
+    .port img{
+        margin-top: 20px;
+    }
+
+    .port1 img{
+        margin-top: 20px;
+    }
+
+    .port2 img{
+        margin-top: 20px;
+    }
+
+    .insta{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .face{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .twit{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+}
