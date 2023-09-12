@@ -325,28 +325,24 @@ inherit-	Inherits this property from its parent element.*/
 }
 
 
+
 .face:hover{
-    width: 60px;
+    width: 40px;
     border-radius: 150px;
-   padding: 30px;
-    cursor: pointer;;
-    border: 2px solid white;
+    cursor: pointer;
+    transition: all 0.6sec;
 }
 
 .insta:hover{
-    width: 60px;
+    width: 40px;
     border-radius: 150px;
-    padding: 30px;
     cursor: pointer;
-    border: 2px solid white;
 }  
 
 .twit:hover{
-    width: 60px;
+    width: 40px;
     border-radius: 150px;
-    padding: 30px;
     cursor: pointer;
-    border: 2px solid white;
 }
 
 .icon{
@@ -357,18 +353,3 @@ inherit-	Inherits this property from its parent element.*/
     color: tan;
     padding: 5px;
 }
-
-.BlueJay{
-    width: 50px;
-    border-radius: 150px;
-   padding: 30px;
-    cursor: pointer;;
-}
-
-.BlueJay:hover{
-    width: 60px;
-    border-radius: 150px;
-    padding: 30px;
-    cursor: pointer;
-    border: 2px solid white;
-}  
